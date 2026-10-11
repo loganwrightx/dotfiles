@@ -85,6 +85,7 @@ local optional = {
   { "docker_compose_language_service", "docker-compose-langserver" },
   { "dockerls", "docker-langserver" },
   { "gopls", "gopls" },
+  { "neocmake", "neocmakelsp" },
 }
 for _, item in ipairs(optional) do
   if vim.fn.executable(item[2]) == 1 then

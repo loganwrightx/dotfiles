@@ -28,6 +28,7 @@ return {
         "clangd",
         "harper-ls",
         "lua-language-server",
+        "neocmakelsp",
         "ruff",
         "rust-analyzer",
         "shellcheck",
